@@ -67,6 +67,9 @@
     .links{
         padding-top: 20px;
     }
+    .maistext{
+        padding: 0px;
+    }
 }
 
 @media (max-width: 710px){
