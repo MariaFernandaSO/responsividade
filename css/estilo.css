@@ -41,7 +41,8 @@
     text-align: center;
 }
 .seriesimg{
-    margin: 0px auto;
+    border: 1px solid transparent;
+    text-align: center;
 
 }
 .para{
