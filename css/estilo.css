@@ -49,7 +49,6 @@
     padding-bottom: 40px;
 }
 .maistext{
-    padding: auto;
     text-justify: auto;
     text-align: center;
     border: 2px solid darkred;
@@ -85,6 +84,8 @@
     padding-bottom: 80px;
     line-height: 2em;
 }
+
+
 
 @media (max-width: 628px){
     .cabecalho{
