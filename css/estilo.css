@@ -60,6 +60,31 @@
 .three{
     padding-bottom: 40px;
 }
+.rodape{
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+}
+.five{
+    display: flex;
+    flex-direction: column;
+}
+.six{
+    display: flex;
+    flex-direction: column;
+}
+.tudoRodape{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    line-height: 2em;
+}
 
 @media (max-width: 628px){
     .cabecalho{
@@ -78,6 +103,22 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 742px){
+    .tudoRodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .five{
+        padding-top: 40px;
+    }
+    .six{
+        padding-top: 40px;
+    }
+    
+}
+
  
 @media (max-width: 1283px){
     .titulo{
