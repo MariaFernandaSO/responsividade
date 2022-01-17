@@ -103,6 +103,19 @@
     .conteudo{
         flex-direction: column;
     }
+    .seriesimg{
+        display: flex;
+        overflow-x: scroll;
+        margin-left: 10px;
+    }
+    .seriesimg::-webkit-scrollbar{
+        width: 4px;
+        border: 1px solid white;
+    }
+    .seriesimg::-webkit-scrollbar-thumb{
+        border-radius: 6px;
+        background-color: black;
+    }
 }
 
 @media (max-width: 742px){
